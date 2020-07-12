@@ -1,0 +1,16 @@
+:root{
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+    --head-color: #212121;
+    }
+    
+    body{
+        background-color: FFFFFF;
+        color:#757575 ;
+    }
+    .logo{
+        color: var(--head-color);
+    }
+    .site-nav .link{
+        color: var(--head-color); 
+      }
