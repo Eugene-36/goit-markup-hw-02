@@ -2,6 +2,7 @@
 --primary-text-color:#757575;
 --accent-color:#2196F3;
 --head-color: #212121;
+--white-color:#FFFFFF
 }
 
 body{
@@ -48,5 +49,13 @@ body{
 .contact-info-color:hover{
     color: var(--accent-color);
 }
-/* Подвал */
+/* Подвал,работа с кнопкой*/
+.button{
+    color:var(--white-color);
+    background-color: var(--accent-color);
+}
+.button.primary{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
 
