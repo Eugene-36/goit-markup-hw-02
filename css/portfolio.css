@@ -8,6 +8,8 @@
     body{
         background-color: FFFFFF;
         color:#757575 ;
+        font-family: Roboto,sans-serif;
+        letter-spacing: 0.03em;
     }
     .list{
         list-style:none;
@@ -24,12 +26,20 @@
 /*Акцент (background: #2196F3;)*/
 .logo{
     color: var(--head-color);
+    font-family: Raleway,cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
 }
 .color-logo{
     color: var(--accent-color);
 }
 .site-nav .link{
   color: var(--head-color); 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -56,4 +66,7 @@
 .button.primary{
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.8;
 }
