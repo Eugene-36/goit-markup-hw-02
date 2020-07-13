@@ -1,0 +1,49 @@
+:root{
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+    --head-color: #212121;
+    }
+    
+    body{
+        background-color: FFFFFF;
+        color:#757575 ;
+    }
+    .list{
+        list-style:none;
+    }
+
+/*Создание основной палитры -основной текст-(#757575)*/
+/*Заголовки у меня цвета:(color: #212121;) h1 цвет(#FFFFFF;),навигация (#212121)*/
+/*h1 цвет(#FFFFFF;)*/
+/*Цвет текста который описывает картинки (color: #757575;)*/
+/*Цвет для раздела "чем мы занимаемся" (color: #FFFFFF;)
+/*Для футера цвет (color: #FFFFFF;), а для mail и tel (color: rgba(255, 255, 255, 0.6);*/
+/*Цвет синей части лого (color: #2196F3;),для чёрной (color: #000000;)*/
+/*Цвет Логотипов клиента и соц.сети (AFB1B8 100%)
+/*Акцент (background: #2196F3;)*/
+.logo{
+    color: var(--head-color);
+}
+.color-logo{
+    color: var(--accent-color);
+}
+.site-nav .link{
+  color: var(--head-color); 
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.contact-info .contact-info-color{
+    color: var(--primary-text-color);
+}
+/* Работа с секциями (заголовки) */
+.section-title{
+    color: var(--head-color);
+}
+.contact-info-color:hover{
+    color: var(--accent-color);
+}
