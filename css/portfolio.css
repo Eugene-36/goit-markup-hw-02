@@ -51,12 +51,35 @@
 .contact-info .contact-info-color{
     color: var(--primary-text-color);
 }
+                        /* Кнопки фильтрации */
+    .button-appearance{
+        color: var(--head-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+    }
 /* Работа с секциями (заголовки) */
 .section-title{
     color: var(--head-color);
 }
 .contact-info-color:hover{
     color: var(--accent-color);
+}
+/* Стили основных заголовков */
+.section-title-style{
+    color: var(--head-color);   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    }
+/* Стили основного текста */
+.section-title-text{   
+
+font-weight: normal;
+font-size: 16px;
+line-height: 1.8;
 }
 /* Подвал */
 .button{
