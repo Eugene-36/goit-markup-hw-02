@@ -51,13 +51,13 @@
 .contact-info .contact-info-color{
     color: var(--primary-text-color);
 }
-                        /* Кнопки фильтрации */
-    .button-appearance{
-        color: var(--head-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-    }
+/* Кнопки фильтрации */
+.button-appearance{
+    color: var(--head-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
 /* Работа с секциями (заголовки) */
 .section-title{
     color: var(--head-color);
@@ -74,12 +74,19 @@
     letter-spacing: 0.06em;
 
     }
-/* Стили основного текста */
+/* Стили для текста технохряк */
 .section-title-text{   
 
 font-weight: normal;
 font-size: 16px;
+line-height: 1.5;
+}
+/* Стили для текста под картинками */
+.section-title-info{
+font-weight: normal;
+font-size: 16px;
 line-height: 1.8;
+
 }
 /* Подвал */
 .button{
