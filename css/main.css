@@ -14,6 +14,18 @@ body{
 .list{
     list-style:none;
 }
+/* Убирает подчёркивание и добавляет стили */
+.link-underline{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
+.text .text-light:focus{
+    color: var(--accent-color);
+}
 /*Создание основной палитры -основной текст-(#757575)*/
 /*Заголовки у меня цвета:(color: #212121;) h1 цвет(#FFFFFF;),навигация (#212121)*/
 /*h1 цвет(#FFFFFF;)*/
@@ -26,7 +38,7 @@ body{
 
 /* Работа с header*/
 .logo{
-    color: var(--head-color);
+    color: var(--accent-color);
     font-family: Raleway,cursive;
     font-weight: bold;
     font-size: 26px;
@@ -34,11 +46,13 @@ body{
 
 }
 .color-logo{
-    color: var(--accent-color);
+    color: var(--head-color);
 }
+
+
 .site-nav .link{
   color: var(--head-color); 
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 
@@ -52,26 +66,29 @@ body{
 }
 .contact-info .contact-info-color{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
 }
 /* Работа с секциями (заголовки) */
 .section-title{
     color: var(--head-color);   
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.1;
 }
 /* Основной текст описания кртинок */
 .section-title-text{   
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
-line-height:1,7;
+line-height: 1.7;
 }
 /* Название профессий */
 .section-title-name{
     
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.1;
+    line-height: 1.18;
 }
 /* Стили основных заголовков */
 .section-title-style{
@@ -85,7 +102,7 @@ text-align: center;
 .section-title-hero{
      font-weight: 900; 
      font-size: 44px; 
-    line-height: 1.3; 
+    line-height: 1.5; 
     text-align: center;
     
 
@@ -97,11 +114,14 @@ text-align: center;
 .button{
     color:var(--white-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
 }
 .button.primary{
     color: var(--white-color);
     background-color: var(--accent-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
 }
