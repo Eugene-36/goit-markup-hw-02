@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: FFFFFF;
+    background-color: var(--white-color);
     color:#757575 ;
     font-family: Roboto,sans-serif;
     letter-spacing: 0.03em;
@@ -73,10 +73,19 @@ body{
 /* Работа с секциями (заголовки) */
 .section-title{
     color: var(--head-color);   
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
+    text-transform: uppercase;
 }
+/* H3 к именам */
+.section-title-info{
+color: var(--head-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1;
+}
+
 /* Основной текст описания кртинок */
 .section-title-text{   
 font-weight: 400;
@@ -102,9 +111,10 @@ text-align: center;
 .section-title-hero{
      font-weight: 900; 
      font-size: 44px; 
-    line-height: 1.5; 
+    line-height: 1.363; 
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
     
 
 }
@@ -117,7 +127,8 @@ text-align: center;
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 .button.primary{
     color: var(--white-color);
@@ -125,5 +136,13 @@ text-align: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
+}
+.link-underline-additional{
+color: var(--white-color);
+}
+.call-to-act{
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
 }
 
