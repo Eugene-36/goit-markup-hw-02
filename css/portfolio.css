@@ -17,7 +17,7 @@
     /* Убирает лишние стили из подвала */
     .link-underline{
         text-decoration: none;
-        color: var(--primary-text-color);
+        color: var(--white-color);
         font-weight: normal;
         font-size: 14px;
         line-height: 1.7;
@@ -72,7 +72,8 @@
 
 }
 /* Фокус для кнопки */
-.list .button-appearance:focus{
+.list .button-appearance:focus,
+.list .button-appearance:hover{
     color: var(--accent-color);
 }
 
