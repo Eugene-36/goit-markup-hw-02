@@ -8,7 +8,7 @@
 body{
     background-color: var(--white-color);
     color:#757575 ;
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
 .list{
@@ -23,9 +23,16 @@ body{
     line-height: 1.7;
     font-style: normal;
 }
+
 .text .text-light:focus{
     color: var(--accent-color);
 }
+.text-light:hover{
+    color: var(--accent-color);
+}
+
+
+
 /*Создание основной палитры -основной текст-(#757575)*/
 /*Заголовки у меня цвета:(color: #212121;) h1 цвет(#FFFFFF;),навигация (#212121)*/
 /*h1 цвет(#FFFFFF;)*/
@@ -65,10 +72,11 @@ body{
     color: var(--accent-color);
 }
 .contact-info .contact-info-color{
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.18;
+    
 }
 /* Работа с секциями (заголовки) */
 .section-title{
@@ -83,7 +91,7 @@ body{
 color: var(--head-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 1.1;
+line-height: 1.18;
 }
 
 /* Основной текст описания кртинок */
@@ -109,18 +117,27 @@ text-align: center;
 }
 /* Стили для главного заголовка */
 .section-title-hero{
-     font-weight: 900; 
-     font-size: 44px; 
-    line-height: 1.363; 
+    background: #2F303A;
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* font-weight: 900; 
+    font-size: 44px; 
+    line-height: 1.36; 
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em; */
     
 
 }
 .contact-info-color:hover{
     color: var(--accent-color);
 }
+
 /* Подвал,работа с кнопкой*/
 .button{
     color:var(--white-color);
@@ -139,6 +156,8 @@ text-align: center;
 }
 .link-underline-additional{
 color: var(--white-color);
+text-decoration: none;
+font-style: normal;
 }
 .call-to-act{
 font-size: 14px;
