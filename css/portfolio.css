@@ -2,7 +2,7 @@
     --primary-text-color:#757575;
     --accent-color:#2196F3;
     --head-color: #212121;
-    --white-color:#FFFFFF
+    --white-color:#FFFFFF 
     }
     
     body{
@@ -17,13 +17,18 @@
     /* Убирает лишние стили из подвала */
     .link-underline{
         text-decoration: none;
-        color: var(--white-color);
+        color: var(--primary-text-color);
         font-weight: normal;
         font-size: 14px;
         line-height: 1.7;
         font-style: normal;
+       
     }
 .text .text-light:focus{
+    color: var(--accent-color);
+}
+/* Ховер для телефона и майла */
+.text-light:hover{
     color: var(--accent-color);
 }
 /*Создание основной палитры -основной текст-(#757575)*/
@@ -60,7 +65,15 @@
     color: var(--accent-color);
 }
 .contact-info .contact-info-color{
-    color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
+    
+}
+/* Стили для адреса  */
+.link-underline-address{
+    font-style: normal;
+    text-decoration: none;
+    color: var(--white-color);
+    
 }
 /* Кнопки фильтрации */
 .button-appearance{
@@ -74,7 +87,8 @@
 /* Фокус для кнопки */
 .list .button-appearance:focus,
 .list .button-appearance:hover{
-    color: var(--accent-color);
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 
@@ -89,7 +103,7 @@
 .section-title-style{
     color: var(--head-color);   
     font-weight: 700;
-    font-size: 36px;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 
