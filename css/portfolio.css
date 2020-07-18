@@ -134,3 +134,8 @@ line-height: 1.8;
     font-size: 16px;
     line-height: 1.8;
 }
+.call-to-act{
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    }
