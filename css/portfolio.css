@@ -70,10 +70,14 @@
 }
 /* Стили для адреса  */
 .link-underline-address{
-    font-style: normal;
-    text-decoration: none;
-    color: var(--white-color);
-    
+font-style: normal;
+text-decoration: none;
+color: var(--white-color);  
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
 }
 /* Кнопки фильтрации */
 .button-appearance{
