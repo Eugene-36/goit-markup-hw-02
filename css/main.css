@@ -125,14 +125,7 @@ text-align: center;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* font-weight: 900; 
-    font-size: 44px; 
-    line-height: 1.36; 
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.06em; */
     
-
 }
 .contact-info-color:hover{
     color: var(--accent-color);
@@ -140,12 +133,16 @@ text-align: center;
 
 /* Подвал,работа с кнопкой*/
 .button{
-    color:var(--white-color);
+    color: var(--white-color);
     background-color: var(--accent-color);
+    text-decoration: none;
+     letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.06em;
+    align-items: center;
+    text-align: center;
+
 }
 .button.primary{
     color: var(--white-color);
@@ -158,6 +155,11 @@ text-align: center;
 color: var(--white-color);
 text-decoration: none;
 font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
 }
 .call-to-act{
 font-size: 14px;
