@@ -18,7 +18,7 @@
     .link-underline{
         text-decoration: none;
         color: var(--primary-text-color);
-        font-weight: normal;
+        font-weight: 500;
         font-size: 14px;
         line-height: 1.7;
         font-style: normal;
@@ -102,6 +102,9 @@ letter-spacing: 0.03em;
 }
 .contact-info-color:hover{
     color: var(--accent-color);
+}
+.contact-info-color{
+    font-weight: 400;
 }
 /* Стили основных заголовков */
 .section-title-style{
